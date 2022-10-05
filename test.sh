@@ -27,9 +27,9 @@ addgroup sftp
 useradd -m Merry
 echo Merry:kalimac | chpasswd
 usermod -G sftp Merry
-chmod 700 /home/Merry/
+chmod 700 /home/scripts/
 
 useradd -m Pippin
 echo Pippin:secondbreakfast | chpasswd
 usermod -G sftp Pippin
-chmod 700 /home/Pippin/
+chmod 700 /home/scripts/
